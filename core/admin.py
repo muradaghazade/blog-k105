@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from core.models import News
+from core.models import *
 
-admin.site.register(News)
+admin.site.register([News,Book,Phone,Car,Product])
